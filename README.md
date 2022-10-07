@@ -11,14 +11,20 @@ Python 3.10, Flask 2.2 (web framework), SQLAlchemy (ORM) and Marshmallow (serial
 
 ## Setup Instruction
 
-* Install the libraries and setup the database
+Note: for Windows use python instead of python3 and pip or pip3 whichever works
 
+- Create a parent working folder
+- Goto that folder and clone the repository. It will create a folder discount_api_codes
 - Setup the Python 🐍 virtual environment (I have assumed that Python 3.x is already installed on your system)
-  - ```python3 -m venv simpleapi``` (this will create a folder name simpleapi, replace it with any other name if you like)
-  - goto simpleapi 📁
-  - activate the venv by entering this command at command prompt: ```source bin/activate```
+  - ```
+  python3 -m venv discount_codes_api
+  cd discount_codes_api
+  source bin/activate  (for Mac OS and Linux) or scripts/activate.bat (for Windows OS) 
+  ``` 
+- Install the libraries and setup the database
+  - goto discount_codes_api 📁
   - Install the dependencies
-  - ```pip3 install Flask, Flask-SQLAlchemy, flask-marshmallow``` (refer to requirement.txt 📄)
+  - ```pip3 install flask, flask-SQLAlchemy, flask-marshmallow``` (refer to requirement.txt 📄)
 - Lets run the app 💻 and test the endpoints using Postman 🏤 or web browser 🌍
   ```
   flask run
