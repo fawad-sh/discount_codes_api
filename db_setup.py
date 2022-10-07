@@ -86,6 +86,7 @@ class User_Discount_Code(db.Model):
     user_id = Column(Integer)
     brand_id = Column(Integer)
     discount_code = Column(String)
+    valid_till = Column(DateTime)
 
 # -------- schema to serialize
 
