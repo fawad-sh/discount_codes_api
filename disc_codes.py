@@ -1,8 +1,7 @@
 """ Dicount code module """
 
-from ast import Pass
 import db_setup
-
+import datetime
 
 def generate_dc(brand_id, count, status):
     """ Generate discount codes for the passed brand_id """
@@ -61,9 +60,12 @@ def fetch_dc(brand_id, user_id, status):
     else:
         # mark discount code as used
         code.status = 1
+        # add 30 days validity to discount code
+        d = datetime.date.today() + datetime.timedelta(days=30)
+
         # to notify brand that a user gets the discount code
         user_dc = db_setup.User_Discount_Code(
-            brand_id=brand_id, user_id=user_id, discount_code=code.discount_code)
+            brand_id=brand_id, user_id=user_id, discount_code=code.discount_code, valid_till=d)
         db_setup.db.session.add(user_dc)
 
         db_setup.db.session.commit()
