@@ -1,7 +1,7 @@
 # Discount Codes Api ✈️
 
 ## What it does?
-It is a small part of a customer loyality app. It has 2️⃣ microservices accessible via REST API: 1) Generate Discount Coderuns 2) Fetch discount code for a user. 
+It is a small part of a customer loyalty app. It has 2️⃣ microservices accessible via REST API: 1) Generate Discount Coderuns 2) Fetch discount code for a user. 
 
 ## What it consist of?
 A development web server and two microservices ✈️
@@ -37,7 +37,7 @@ Note: these instructions are for Mac OS
 
 
 ## Database Commands
-SQLite database loyality.db is used by the app. During development/testing you can create the Database, Drop it and Seed it with initial data
+SQLite database loyalty.db is used by the app. During development/testing you can create the Database, Drop it and Seed it with initial data
 
 | Action         | Command                       |
 |---------------:|-------------------------------|
