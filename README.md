@@ -23,8 +23,12 @@ Note: these instructions are for Mac OS
   ``` 
 - Install the libraries and setup the database
   - goto discount_codes_api 📁
-  - Install the dependencies
-  - ```pip3 install flask, flask-SQLAlchemy, flask-marshmallow, marshmallow-sqlalchemy ``` (refer to requirement.txt 📄)
+  - Install the dependencies, (refer to requirement.txt 📄).
+  - ```
+    pip3 install Flask==2.2.2
+    pip3 install Flask-SQLAlchemy==2.5.1
+    pip3 install flask-marshmallow==0.14.0
+ ``` 
 - Create the database, Seed the database (refer to next section)
 - Lets run the app 💻 and test the endpoints using Postman 🏤 or web browser 🌍
   ```
