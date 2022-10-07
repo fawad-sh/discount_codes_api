@@ -1,5 +1,4 @@
 # Discount Codes Api ✈️
-A simple api to generate discount codes and fetch discount codes. It is built using python 3.10 and Flask 2.2
 
 ## What it does?
 It is a small part of a customer loyality app. It has 2️⃣ microservices accessible via REST API: 1) Generate Discount Coderuns 2) Fetch discount code for a user. 
@@ -55,4 +54,5 @@ The above command will run the development web server **http://localhost:5000** 
 
 
 Happy Programming! 🌛
+Fawad
 
