@@ -11,7 +11,7 @@ Python 3.10, Flask 2.2 (web framework), SQLAlchemy (ORM) and Marshmallow (serial
 
 ## Setup Instruction
 
-Note: for Windows use python instead of python3 and pip or pip3 whichever works
+Note: these instructions are for Mac OS
 
 - Create a parent working folder
 - Goto that folder and clone the repository. It will create a folder discount_api_codes
@@ -19,12 +19,13 @@ Note: for Windows use python instead of python3 and pip or pip3 whichever works
   - ```
   python3 -m venv discount_codes_api
   cd discount_codes_api
-  source bin/activate  (for Mac OS and Linux) or scripts/activate.bat (for Windows OS) 
+  source bin/activate  (for Mac OS and Linux)  
   ``` 
 - Install the libraries and setup the database
   - goto discount_codes_api 📁
   - Install the dependencies
   - ```pip3 install flask, flask-SQLAlchemy, flask-marshmallow, marshmallow-sqlalchemy ``` (refer to requirement.txt 📄)
+- Create the database, Seed the database (refer to next section)
 - Lets run the app 💻 and test the endpoints using Postman 🏤 or web browser 🌍
   ```
   flask run
