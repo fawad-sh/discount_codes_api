@@ -24,7 +24,7 @@ Note: for Windows use python instead of python3 and pip or pip3 whichever works
 - Install the libraries and setup the database
   - goto discount_codes_api 📁
   - Install the dependencies
-  - ```pip3 install flask, flask-SQLAlchemy, flask-marshmallow``` (refer to requirement.txt 📄)
+  - ```pip3 install flask, flask-SQLAlchemy, flask-marshmallow, marshmallow-sqlalchemy ``` (refer to requirement.txt 📄)
 - Lets run the app 💻 and test the endpoints using Postman 🏤 or web browser 🌍
   ```
   flask run
