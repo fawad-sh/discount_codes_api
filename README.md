@@ -45,7 +45,7 @@ SQLite database loyalty.db is used by the app. During development/testing you ca
 | Drop Database  | flask --app db_setup db_drop  |
 | Seed Database  | flask --app db_setup db_seed  |
 
-Note: commands should be entered in simpleap folder at command prompt
+Note: commands should be entered in discount_api_codes folder 📁 at command prompt
 
 ## Run the App
 1. ```python3 app.py``` OR
