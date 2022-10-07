@@ -28,7 +28,7 @@ Note: these instructions are for Mac OS
     pip3 install Flask==2.2.2
     pip3 install Flask-SQLAlchemy==2.5.1
     pip3 install flask-marshmallow==0.14.0
- ``` 
+  ``` 
 - Create the database, Seed the database (refer to next section)
 - Lets run the app 💻 and test the endpoints using Postman 🏤 or web browser 🌍
   ```
@@ -64,6 +64,6 @@ The above command will run the development web server **http://localhost:5000** 
 | **http://localhost:5000/fetch_discount_code?brand_id=1&user_id=2** |  It fetches a discount code 🎟️ for a user of a brand. <br />This endpoint expects 2️⃣ parameters brand_id and user_id (there are two users defined in the DB with id 1 and 2 |
 
 
-Happy Programming! 🌛
-Fawad
+Happy Programming! 
+🌛 Fawad
 
